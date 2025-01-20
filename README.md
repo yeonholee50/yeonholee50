@@ -18,6 +18,10 @@ me = SoftwareEngineer()
 me.say_hi()
 ```
 
+## 📝 Personal Website
+
+https://yeonlee.tech/
+
 ## 🔧 Technologies & Tools
 
 **Programming Languages:**
