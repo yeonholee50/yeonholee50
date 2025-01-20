@@ -32,12 +32,9 @@ me.say_hi()
 ![Bash](https://img.shields.io/badge/Code-Bash-6aa6f8)
 ![Swift](https://img.shields.io/badge/Code-Swift-6aa6f8)
 
-**Cloud and Web Services:**
+**Cloud, Web, and Database Services:**
 
 ![Oracle Cloud](https://img.shields.io/badge/Cloud-Oracle%20Cloud-6aa6f8)
-![Git](https://img.shields.io/badge/Tools-Git-6aa6f8)
-![Jira](https://img.shields.io/badge/Tools-Jira-6aa6f8)
-![Figma](https://img.shields.io/badge/Tools-Figma-6aa6f8)
 ![Google Cloud](https://img.shields.io/badge/Cloud-Google%20Cloud-6aa6f8)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-6aa6f8)
 ![QuestDB](https://img.shields.io/badge/Database-QuestDB-6aa6f8)
@@ -46,6 +43,9 @@ me.say_hi()
 
 **Tools and Frameworks:**
 
+![Git](https://img.shields.io/badge/Tools-Git-6aa6f8)
+![Jira](https://img.shields.io/badge/Tools-Jira-6aa6f8)
+![Figma](https://img.shields.io/badge/Tools-Figma-6aa6f8)
 ![VS Code](https://img.shields.io/badge/Tools-VS%20Code-6aa6f8)
 ![Docker](https://img.shields.io/badge/Tools-Docker-6aa6f8)
 ![Conda](https://img.shields.io/badge/Tools-Conda-6aa6f8)
