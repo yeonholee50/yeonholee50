@@ -23,14 +23,14 @@ me.say_hi()
 **Programming Languages:**
 
 ![Python](https://img.shields.io/badge/Code-Python-blue)
-![JavaScript](https://img.shields.io/badge/Code-JavaScript-yellow)
-![C/C++](https://img.shields.io/badge/Code-C%2FC%2B%2B-brightgreen)
-![Java](https://img.shields.io/badge/Code-Java-orange)
-![HTML/CSS](https://img.shields.io/badge/Code-HTML%2FCSS-red)
-![Go](https://img.shields.io/badge/Code-Go-cyan)
-![noSQL](https://img.shields.io/badge/Code-noSQL-lightgrey)
-![Bash](https://img.shields.io/badge/Code-Bash-black)
-![Swift](https://img.shields.io/badge/Code-Swift-red)
+![JavaScript](https://img.shields.io/badge/Code-JavaScript-blue)
+![C/C++](https://img.shields.io/badge/Code-C%2FC%2B%2B-blue)
+![Java](https://img.shields.io/badge/Code-Java-blue)
+![HTML/CSS](https://img.shields.io/badge/Code-HTML%2FCSS-blue)
+![Go](https://img.shields.io/badge/Code-Go-blue)
+![noSQL](https://img.shields.io/badge/Code-noSQL-blue)
+![Bash](https://img.shields.io/badge/Code-Bash-blue)
+![Swift](https://img.shields.io/badge/Code-Swift-blue)
 
 **Cloud and Web Services:**
 
