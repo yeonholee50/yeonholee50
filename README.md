@@ -23,44 +23,44 @@ me.say_hi()
 **Programming Languages:**
 
 ![Python](https://img.shields.io/badge/Code-Python-6aa6f8)
-![JavaScript](https://img.shields.io/badge/Code-JavaScript-blue)
-![C/C++](https://img.shields.io/badge/Code-C%2FC%2B%2B-blue)
-![Java](https://img.shields.io/badge/Code-Java-blue)
-![HTML/CSS](https://img.shields.io/badge/Code-HTML%2FCSS-blue)
-![Go](https://img.shields.io/badge/Code-Go-blue)
-![noSQL](https://img.shields.io/badge/Code-noSQL-blue)
-![Bash](https://img.shields.io/badge/Code-Bash-blue)
-![Swift](https://img.shields.io/badge/Code-Swift-blue)
+![JavaScript](https://img.shields.io/badge/Code-JavaScript-6aa6f8)
+![C/C++](https://img.shields.io/badge/Code-C%2FC%2B%2B-6aa6f8)
+![Java](https://img.shields.io/badge/Code-Java-6aa6f8)
+![HTML/CSS](https://img.shields.io/badge/Code-HTML%2FCSS-6aa6f8)
+![Go](https://img.shields.io/badge/Code-Go-6aa6f8)
+![noSQL](https://img.shields.io/badge/Code-noSQL-6aa6f8)
+![Bash](https://img.shields.io/badge/Code-Bash-6aa6f8)
+![Swift](https://img.shields.io/badge/Code-Swift-6aa6f8)
 
 **Cloud and Web Services:**
 
-![Oracle Cloud](https://img.shields.io/badge/Cloud-Oracle%20Cloud-blue)
-![Git](https://img.shields.io/badge/Tools-Git-orange)
-![Jira](https://img.shields.io/badge/Tools-Jira-blue)
-![Figma](https://img.shields.io/badge/Tools-Figma-brightgreen)
-![Google Cloud](https://img.shields.io/badge/Cloud-Google%20Cloud-blue)
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-green)
-![QuestDB](https://img.shields.io/badge/Database-QuestDB-lightgrey)
-![Render](https://img.shields.io/badge/Cloud-Render-purple)
-![Heroku](https://img.shields.io/badge/Cloud-Heroku-9cf)
+![Oracle Cloud](https://img.shields.io/badge/Cloud-Oracle%20Cloud-6aa6f8)
+![Git](https://img.shields.io/badge/Tools-Git-6aa6f8)
+![Jira](https://img.shields.io/badge/Tools-Jira-6aa6f8)
+![Figma](https://img.shields.io/badge/Tools-Figma-6aa6f8)
+![Google Cloud](https://img.shields.io/badge/Cloud-Google%20Cloud-6aa6f8)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-6aa6f8)
+![QuestDB](https://img.shields.io/badge/Database-QuestDB-6aa6f8)
+![Render](https://img.shields.io/badge/Cloud-Render-6aa6f8)
+![Heroku](https://img.shields.io/badge/Cloud-Heroku-6aa6f8)
 
 **Tools and Frameworks:**
 
-![VS Code](https://img.shields.io/badge/Tools-VS%20Code-blue)
-![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
-![Conda](https://img.shields.io/badge/Tools-Conda-green)
-![Django](https://img.shields.io/badge/Framework-Django-green)
-![Flask](https://img.shields.io/badge/Framework-Flask-lightgrey)
-![React](https://img.shields.io/badge/Framework-React-blue)
-![RESTful API](https://img.shields.io/badge/Tools-RESTful%20API-yellow)
-![FASTAPI](https://img.shields.io/badge/Framework-FASTAPI-cyan)
-![PuTTY](https://img.shields.io/badge/Tools-PuTTY-brightgreen)
+![VS Code](https://img.shields.io/badge/Tools-VS%20Code-6aa6f8)
+![Docker](https://img.shields.io/badge/Tools-Docker-6aa6f8)
+![Conda](https://img.shields.io/badge/Tools-Conda-6aa6f8)
+![Django](https://img.shields.io/badge/Framework-Django-6aa6f8)
+![Flask](https://img.shields.io/badge/Framework-Flask-6aa6f8)
+![React](https://img.shields.io/badge/Framework-React-6aa6f8)
+![RESTful API](https://img.shields.io/badge/Tools-RESTful%20API-6aa6f8)
+![FASTAPI](https://img.shields.io/badge/Framework-FASTAPI-6aa6f8)
+![PuTTY](https://img.shields.io/badge/Tools-PuTTY-6aa6f8)
 
 **Additional Technologies:**
 
-![Arduino](https://img.shields.io/badge/Tools-Arduino-blue)
-![Spyder System Controller](https://img.shields.io/badge/Tools-Spyder%20System%20Controller-orange)
-![Kali Linux](https://img.shields.io/badge/OS-Kali%20Linux-darkred)
+![Arduino](https://img.shields.io/badge/Tools-Arduino-6aa6f8)
+![Spyder System Controller](https://img.shields.io/badge/Tools-Spyder%20System%20Controller-6aa6f8)
+![Kali Linux](https://img.shields.io/badge/OS-Kali%20Linux-6aa6f8)
 
 ## 🏆 GitHub Trophies
 
