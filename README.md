@@ -32,7 +32,7 @@ me.say_hi()
 ![Bash](https://img.shields.io/badge/Code-Bash-6aa6f8)
 ![Swift](https://img.shields.io/badge/Code-Swift-6aa6f8)
 
-**Cloud, Web, and Database Services:**
+**Cloud and Database Services:**
 
 ![Oracle Cloud](https://img.shields.io/badge/Cloud-Oracle%20Cloud-6aa6f8)
 ![Google Cloud](https://img.shields.io/badge/Cloud-Google%20Cloud-6aa6f8)
