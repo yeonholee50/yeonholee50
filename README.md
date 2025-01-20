@@ -21,6 +21,7 @@ me.say_hi()
 ## 🔧 Technologies & Tools
 
 **Programming Languages:**
+
 ![Python](https://img.shields.io/badge/Code-Python-blue)
 ![JavaScript](https://img.shields.io/badge/Code-JavaScript-yellow)
 ![C/C++](https://img.shields.io/badge/Code-C%2FC%2B%2B-brightgreen)
@@ -32,6 +33,7 @@ me.say_hi()
 ![Swift](https://img.shields.io/badge/Code-Swift-red)
 
 **Cloud and Web Services:**
+
 ![Oracle Cloud](https://img.shields.io/badge/Cloud-Oracle%20Cloud-blue)
 ![Git](https://img.shields.io/badge/Tools-Git-orange)
 ![Jira](https://img.shields.io/badge/Tools-Jira-blue)
@@ -43,6 +45,7 @@ me.say_hi()
 ![Heroku](https://img.shields.io/badge/Cloud-Heroku-9cf)
 
 **Tools and Frameworks:**
+
 ![VS Code](https://img.shields.io/badge/Tools-VS%20Code-blue)
 ![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
 ![Conda](https://img.shields.io/badge/Tools-Conda-green)
@@ -54,6 +57,7 @@ me.say_hi()
 ![PuTTY](https://img.shields.io/badge/Tools-PuTTY-brightgreen)
 
 **Additional Technologies:**
+
 ![Arduino](https://img.shields.io/badge/Tools-Arduino-blue)
 ![Spyder System Controller](https://img.shields.io/badge/Tools-Spyder%20System%20Controller-orange)
 ![Kali Linux](https://img.shields.io/badge/OS-Kali%20Linux-darkred)
