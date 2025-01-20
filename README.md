@@ -20,22 +20,43 @@ me.say_hi()
 
 ## 🔧 Technologies & Tools
 
-
 **Programming Languages:**
-
-
-
-**Programming Languages:**
-
 ![Python](https://img.shields.io/badge/Code-Python-blue)
+![JavaScript](https://img.shields.io/badge/Code-JavaScript-yellow)
+![C/C++](https://img.shields.io/badge/Code-C%2FC%2B%2B-brightgreen)
+![Java](https://img.shields.io/badge/Code-Java-orange)
+![HTML/CSS](https://img.shields.io/badge/Code-HTML%2FCSS-red)
+![Go](https://img.shields.io/badge/Code-Go-cyan)
+![noSQL](https://img.shields.io/badge/Code-noSQL-lightgrey)
+![Bash](https://img.shields.io/badge/Code-Bash-black)
+![Swift](https://img.shields.io/badge/Code-Swift-red)
 
+**Cloud and Web Services:**
+![Oracle Cloud](https://img.shields.io/badge/Cloud-Oracle%20Cloud-blue)
+![Git](https://img.shields.io/badge/Tools-Git-orange)
+![Jira](https://img.shields.io/badge/Tools-Jira-blue)
+![Figma](https://img.shields.io/badge/Tools-Figma-brightgreen)
+![Google Cloud](https://img.shields.io/badge/Cloud-Google%20Cloud-blue)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-green)
+![QuestDB](https://img.shields.io/badge/Database-QuestDB-lightgrey)
+![Render](https://img.shields.io/badge/Cloud-Render-purple)
+![Heroku](https://img.shields.io/badge/Cloud-Heroku-9cf)
 
-
-**Tools and Services:**
-
-![Kubernetes](https://img.shields.io/badge/Tools-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=6aa6f8)
+**Tools and Frameworks:**
+![VS Code](https://img.shields.io/badge/Tools-VS%20Code-blue)
 ![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
+![Conda](https://img.shields.io/badge/Tools-Conda-green)
+![Django](https://img.shields.io/badge/Framework-Django-green)
+![Flask](https://img.shields.io/badge/Framework-Flask-lightgrey)
+![React](https://img.shields.io/badge/Framework-React-blue)
+![RESTful API](https://img.shields.io/badge/Tools-RESTful%20API-yellow)
+![FASTAPI](https://img.shields.io/badge/Framework-FASTAPI-cyan)
+![PuTTY](https://img.shields.io/badge/Tools-PuTTY-brightgreen)
 
+**Additional Technologies:**
+![Arduino](https://img.shields.io/badge/Tools-Arduino-blue)
+![Spyder System Controller](https://img.shields.io/badge/Tools-Spyder%20System%20Controller-orange)
+![Kali Linux](https://img.shields.io/badge/OS-Kali%20Linux-darkred)
 
 ## 🏆 GitHub Trophies
 
