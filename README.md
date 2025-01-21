@@ -66,6 +66,9 @@ Here is the link to my personal website: https://yeonlee.tech/
 ![Arduino](https://img.shields.io/badge/Tools-Arduino-6aa6f8)
 ![Spyder System Controller](https://img.shields.io/badge/Tools-Spyder%20System%20Controller-6aa6f8)
 ![Kali Linux](https://img.shields.io/badge/OS-Kali%20Linux-6aa6f8)
+![Windows](https://img.shields.io/badge/OS-Windows-6aa6f8)
+![Linux](https://img.shields.io/badge/OS-Linux-6aa6f8)
+![Unix](https://img.shields.io/badge/OS-Unix-6aa6f8)
 
 ## 🏆 GitHub Trophies
 
