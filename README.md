@@ -9,6 +9,7 @@ class SoftwareEngineer:
         self.name = "Yeon Lee"
         self.role = "Software Engineer"
         self.language_spoken = ["English", "Korean"]
+        self.description = "I work on projects that are exciting and impactful."
 
     def say_hi(self):
         print("Thanks for dropping by, hope you find some of my work interesting.")
