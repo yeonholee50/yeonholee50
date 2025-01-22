@@ -19,7 +19,7 @@ me.say_hi()
 
 ## 📝 Personal Website
 
-Here is the link to my personal website: https://yeonlee.tech/
+Here is the link to my personal website: https://yeonthelee.tech/
 
 ## 🔧 Technologies & Tools
 
