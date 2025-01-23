@@ -72,16 +72,6 @@ Here is the link to my personal website: https://yeonthelee.tech/
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=yeonholee50&theme=nord&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
-## 🗂️ Highlight Projects
-
-<a href="https://github.com/yeonholee50/AmpyFin">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yeonholee50&repo=AmpyFin&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="AmpyFin" />
-</a>
-
-<a href="https://github.com/yeonholee50/NyxHub">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yeonholee50&repo=NyxHub&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="NyxHub" />
-</a>
-
 <!--
 This was written using Zhenya-Na's README.md so please make sure to check it out
 -->
