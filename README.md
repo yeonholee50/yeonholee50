@@ -1,7 +1,7 @@
 <div align="center">
 
 # Yeon Lee  
-<sub>systems‑minded software engineer • early in my career • learning out loud</sub>
+<sub>systems-minded software engineer • early in my career • learning out loud</sub>
 
 <a href="https://yeonthelee.tech" title="Personal site"><kbd>yeonthelee.tech</kbd></a> ·
 <a href="https://www.ampyfin.com" title="AmpyFin — projects & ideas"><kbd>ampyfin.com</kbd></a> ·
@@ -18,36 +18,40 @@
 
 ---
 
+<a id="palette"></a>
 ## ⌘K — Command Palette (jump anywhere)
-- **Proof →** [impact-snapshots](#proof--impact-snapshots) • [mini-stories](#mini-stories--how-i-learn) • [craft-demo](#craft-demo-2-files-one-promise)
-- **Projects →** [proto](#ampy-proto) • [bus](#ampy-bus) • [config](#ampy-config) • [observability](#ampy-observability) • [ampyfin-main](#ampyfin-first-oss-python-version) • [yfinance-go](#yfinance-go) • [tiingo-go](#tiingo-go-private)
-- **Process →** [how-i-work](#how-i-work) • [toolbox](#toolbox) • [contact](#say-hi)
+- **Proof →** [impact snapshots](#impact) • [mini-stories](#mini-stories) • [craft demo](#craft)
+- **Projects →** [proto](#proto) • [bus (envelope & headers)](#envelope-headers) • [config](#config) • [observability (telemetry)](#telemetry) • [ampyfin main](#ampyfin) • [yfinance-go](#yfinance-go) • [tiingo-go](#tiingo-go)
+- **Process →** [how I work](#how-i-work) • [toolbox](#toolbox) • [contact](#say-hi)
 
 ---
 
+<a id="tags"></a>
 ## 🏷️ Tag Cloud (click to filter by section)
-[contracts-first](#craft-demo-2-files-one-promise) ·
+[contracts-first](#craft) ·
 [deterministic-replays](#how-i-work) ·
-[trace-context](#ampy-bus) ·
-[domain-metrics](#ampy-observability) ·
+[trace-context](#envelope-headers) ·
+[domain-metrics](#telemetry) ·
 [bounded-concurrency](#yfinance-go) ·
-[typed-config](#ampy-config) ·
-[learn-in-public](#ampyfin-first-oss-python-version)
+[typed-config](#config) ·
+[learn-in-public](#ampyfin)
 
 ---
 
+<a id="impact"></a>
 ## Proof — Impact snapshots
 > Show, don’t tell.
 
 - **Data quality** — Drift/orphan checks → **bad‑data incidents ↓ >86%**; **same‑day updates** across ~20k SKUs/week.  
-  <a href="#ampy-observability"><sup>telemetry-backed</sup></a>
+  <a href="#telemetry"><sup>telemetry-backed</sup></a>
 - **Latency to insight** — Tree‑based compatibility engine on AWS Neptune → **multi‑day test matrix → < 1 hour**.  
-  <a href="#craft-demo-2-files-one-promise"><sup>contract-first demo</sup></a>
+  <a href="#craft"><sup>contract-first demo</sup></a>
 - **Reproducibility** — **run_id / universe_id / trace context** → ordering bugs caught **before prod** via deterministic replays.  
-  <a href="#ampy-bus"><sup>envelope & headers</sup></a>
+  <a href="#envelope-headers"><sup>envelope & headers</sup></a>
 
 ---
 
+<a id="mini-stories"></a>
 ## Mini-stories — how I learn
 - **Float lies hurt models.** Replaced silent float coercions with **decimal-as-string** + explicit currency; variance disappeared on replay.  
 - **Don’t scale a mystery.** Added **trace IDs** + **bounded concurrency**; flamegraph exposed a costly reparse—fix beat parallelism.  
@@ -55,6 +59,7 @@
 
 ---
 
+<a id="craft"></a>
 ## Craft demo (2 files, one promise)
 
 **`contracts/bars.proto`**
@@ -97,36 +102,44 @@ _ = js.Publish("bars.v1", env.Bytes())
 ## Projects
 > Click a card to jump. Wherever possible, repos come with fixtures, examples, and CI smoke tests.
 
+<a id="proto"></a>
 ### ampy‑proto
 **Canonical schemas** for markets (bars/ticks/fundamentals/news/fx/corporate_actions/universe/signals/orders/fills/positions/metrics).  
 [`pip install ampy-proto`](https://pypi.org/project/ampy-proto/) · <a href="https://github.com/AmpyFin/ampy-proto" title="Schemas repo">repo</a> · <code>#contracts-first</code>
 
+<a id="envelope-headers"></a>
 ### ampy‑bus
 **Deterministic messaging** — envelope, headers, QoS tiers, DLQ routing, NATS/Kafka helpers, trace propagation.  
 <a href="https://github.com/AmpyFin/ampy-bus" title="Messaging helpers">repo</a> · <code>#trace-context</code> <code>#replays</code>
 
+<a id="config"></a>
 ### ampy‑config
 **Typed config & secrets facade** (Go/Python), runtime reloads, secret indirection.  
 <a href="https://github.com/AmpyFin/ampy-config" title="Config facade">repo</a> · <code>#typed-config</code>
 
+<a id="telemetry"></a>
 ### ampy‑observability
 **Logs + metrics + tracing** with OTLP exporters; docker‑compose observability stack.  
 <a href="https://github.com/AmpyFin/ampy-observability" title="Observability SDKs">repo</a> · <code>#domain-metrics</code> <code>#p95/p99</code>
 
+<a id="ampyfin"></a>
 ### AmpyFin (first OSS Python version)
 The earliest open‑source Python repo that seeded today’s modular platform.  
 <a href="https://github.com/AmpyFin" title="Org index (main repo inside)">org entry</a> · <a href="https://www.ampyfin.com" title="Project home">site</a> · <code>#learn-in-public</code>
 
+<a id="yfinance-go"></a>
 ### yfinance‑go
 Production‑minded free‑data client (historicals/quotes/fundamentals), bounded concurrency, session rotation, circuit breakers; library + CLI (`yfin pull`).  
 <a href="https://github.com/AmpyFin/yfinance-go" title="Yahoo Finance Go client">repo</a> · <code>#bounded-concurrency</code>
 
+<a id="tiingo-go"></a>
 ### tiingo‑go (private)
 Normalized fundamentals & prices (Go) with safe decimals & time semantics. <em>Link intentionally omitted.</em>  
 <code>#fundamentals</code> <code>#safe-decimals</code>
 
 ---
 
+<a id="how-i-work"></a>
 ## How I work
 1. **Pin the interface** (fields, units, time semantics).  
 2. **Make failure boring** (timeouts, retries, backoff, idempotency, DLQ).  
@@ -136,13 +149,14 @@ Normalized fundamentals & prices (Go) with safe decimals & time semantics. <em>L
 
 ---
 
+<a id="toolbox"></a>
 ## Toolbox
 Go • Python • C/C++ • SQL · Protobuf · NATS JetStream/Kafka · OpenTelemetry/Prometheus/Grafana · Docker/Linux · PostgreSQL/DuckDB/MongoDB
 
 ---
 
+<a id="say-hi"></a>
 ## Say hi
 <a href="mailto:yeonholee50@gmail.com"><kbd>email</kbd></a> · <a href="https://www.linkedin.com/in/yeon-lee"><kbd>LinkedIn</kbd></a> · <a href="https://yeonthelee.tech"><kbd>site</kbd></a> · <a href="https://www.ampyfin.com"><kbd>AmpyFin</kbd></a>
-
 
 
