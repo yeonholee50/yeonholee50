@@ -15,8 +15,6 @@
 - **Reproducibility** — Codified **run_id / universe_id** and typed configs → deterministic replays caught ordering bugs **before** prod.
 - **On‑call sanity** — Introduced circuit breakers, backoff, and DLQs with domain metrics → p95 stabilized while throughput rose.
 
-> I’m happiest when a teammate says, “debugging this is boring now.”
-
 ---
 
 ## Mini‑stories (how I learn)
@@ -77,6 +75,9 @@ _ = js.Publish("bars.v1", env.Bytes())
 
 ## What I’m building (and why)
 
+- **AmpyFin (first OSS Python version)** — the earliest open‑source Python repo that seeded today’s modular platform (historicals/ingestion experiments, typed contracts).  
+  https://github.com/AmpyFin
+
 - **ampy‑proto** — canonical schemas for markets (bars/ticks/fundamentals/news/fx/corporate_actions/universe/signals/orders/fills/positions/metrics).  
   `pip install ampy-proto` • https://github.com/AmpyFin/ampy-proto
 
@@ -89,13 +90,8 @@ _ = js.Publish("bars.v1", env.Bytes())
 - **ampy‑observability** — JSON logs + Prometheus metrics + OTLP tracing, plus a docker‑compose stack for local runs.  
   https://github.com/AmpyFin/ampy-observability
 
-- **AmpyFin (first OSS Python version)** — the earliest open‑source Python repo that seeded today’s modular platform (historicals/ingestion experiments, typed contracts).  
-  https://github.com/AmpyFin
-
 - **yfinance‑go** — production‑minded free‑data client (historicals/quotes/fundamentals), bounded concurrency, session rotation, circuit breakers; library + CLI (`yfin pull`).  
   https://github.com/AmpyFin/yfinance-go
-
-- **tiingo‑go** — normalized fundamentals & prices (Go) with safe decimals and time semantics. *(private — link intentionally omitted)*
 
 > Tools matter, but I’m not selling a platform. I’m selling the ability to take a messy, real‑world requirement and turn it into something robust, observable, and easy to change.
 
