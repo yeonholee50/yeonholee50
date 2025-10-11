@@ -1,5 +1,3 @@
-# Yeon Lee — systems‑minded software engineer (early in my career)
-
 > I’m early in my career, but I build like an operator: typed contracts, deterministic replays, and telemetry that explains **what happened and why** — then I write down the path so the next person ships faster. I like working with people who share the goal but **think differently**; that’s where innovation happens.
 
 **Motto**  
