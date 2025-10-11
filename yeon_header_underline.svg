@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="680" height="100" viewBox="0 0 680 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Yeon Lee — underline animation (lighter colors)</title>
-  <desc id="desc">A minimal animated underline beneath the name, using lighter slate/sky tones.</desc>
+<svg width="720" height="110" viewBox="0 0 720 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Yeon Lee — underline animation with LinkedIn-blue highlight</title>
+  <desc id="desc">Name with a soft highlight pill and an animated underline in LinkedIn blue.</desc>
+
+  <!-- Colors:
+       LinkedIn Blue: #0A66C2
+       Light Blue highlight: #E8F3FF
+       Accent stroke (lighter): #58A6FF
+       Tag text: #5B6B7A
+  -->
   <style>
-    .name { font: 700 36px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; fill: #334155; }   /* slate-600 */
-    .tag  { font: 500 14px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; fill: #64748b; }   /* slate-500 */
-    .line { fill: none; stroke: #38bdf8; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 520; stroke-dashoffset: 520; animation: draw 2.6s ease forwards; } /* sky-400 */
+    .name { font: 700 36px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; fill: #0A66C2; }
+    .tag  { font: 500 14px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; fill: #5B6B7A; }
+    .pill { fill: #E8F3FF; stroke: #BBD6FF; stroke-width: 1.5; rx: 10; ry: 10; }
+    .line { fill: none; stroke: #0A66C2; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 520; stroke-dashoffset: 520; animation: draw 2.2s ease forwards; }
     @keyframes draw { to { stroke-dashoffset: 0; } }
   </style>
 
-  <text class="name" x="12" y="42">Yeon Lee</text>
-  <text class="tag"  x="12" y="68">systems-minded software engineer · early in my career · learning in public</text>
+  <!-- Soft highlight behind the name -->
+  <rect class="pill" x="8" y="16" width="355" height="36" />
 
-  <!-- underline path -->
-  <path class="line" d="M12,76 L370,76"/>
+  <!-- Text -->
+  <text class="name" x="20" y="42">Yeon Lee</text>
+  <text class="tag"  x="20" y="72">systems-minded software engineer · early in my career · learning in public</text>
+
+  <!-- Animated underline -->
+  <path class="line" d="M20,80 L380,80"/>
 </svg>
