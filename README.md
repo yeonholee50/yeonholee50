@@ -24,9 +24,9 @@
 
 ---
 
-## Projects
+## OSS AmpyFin Projects
 - **AmpyFin (first OSS Python version)** — seed of today’s modular platform. <a href="https://github.com/AmpyFin">org</a> · <a href="https://www.ampyfin.com">site</a>
-- **ampy-proto** — canonical market schemas. [`pip install ampy-proto`](https://pypi.org/project/ampy-proto/) · <a href="https://github.com/AmpyFin/ampy-proto">repo</a>
+- **ampy-proto** — canonical market schemas. <a href="https://github.com/AmpyFin/ampy-proto">repo</a>
 - **ampy-bus** — envelope + headers, QoS, DLQ, NATS/Kafka helpers. <a href="https://github.com/AmpyFin/ampy-bus">repo</a>
 - **ampy-config** — typed config & secrets (Go/Python). <a href="https://github.com/AmpyFin/ampy-config">repo</a>
 - **ampy-observability** — logs/metrics/tracing (OTLP) + docker compose. <a href="https://github.com/AmpyFin/ampy-observability">repo</a>
