@@ -1,7 +1,8 @@
-<div align="center">
 
 # Yeon Lee
 <sub>systems-minded software engineer · early in my career · learning in public</sub>
+
+<img src="./yeon_header_underline.svg" alt="Animated underline under 'Yeon Lee'" />
 
 <a href="https://yeonthelee.tech"><kbd>site</kbd></a> ·
 <a href="https://www.ampyfin.com"><kbd>ampyfin</kbd></a> ·
@@ -23,13 +24,6 @@
 
 ---
 
-## How I work
-I research the problem, whiteboard the one-line goal, non‑goals, and invariants. I pin contracts before code, design for boring failure, ship small reversible slices, wire observability day‑0, and use replay‑driven confidence. Then I operate, learn, and write it down.
-
-<img src="./yeon_workflow_fixed.svg" alt="Animated workflow: research → whiteboard → contracts → failure design → observability → slices → replay → operate" />
-
----
-
 ## Projects
 - **AmpyFin (first OSS Python version)** — seed of today’s modular platform. <a href="https://github.com/AmpyFin">org</a> · <a href="https://www.ampyfin.com">site</a>
 - **ampy-proto** — canonical market schemas. [`pip install ampy-proto`](https://pypi.org/project/ampy-proto/) · <a href="https://github.com/AmpyFin/ampy-proto">repo</a>
@@ -37,6 +31,11 @@ I research the problem, whiteboard the one-line goal, non‑goals, and invariant
 - **ampy-config** — typed config & secrets (Go/Python). <a href="https://github.com/AmpyFin/ampy-config">repo</a>
 - **ampy-observability** — logs/metrics/tracing (OTLP) + docker compose. <a href="https://github.com/AmpyFin/ampy-observability">repo</a>
 - **yfinance-go** — concurrency-safe free-data client + CLI (`yfin pull`). <a href="https://github.com/AmpyFin/yfinance-go">repo</a>
+
+---
+
+## How I work
+I research the problem, whiteboard the one-line goal, non‑goals, and invariants. I pin contracts before code, design for boring failure, ship small reversible slices, wire observability day‑0, and use replay‑driven confidence. Then I operate, learn, and write it down.
 
 ---
 
