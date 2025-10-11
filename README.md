@@ -26,7 +26,7 @@
 ## How I work
 I research the problem, whiteboard the one-line goal, non‑goals, and invariants. I pin contracts before code, design for boring failure, ship small reversible slices, wire observability day‑0, and use replay‑driven confidence. Then I operate, learn, and write it down.
 
-<img src="./yeon_workflow.svg" alt="Animated workflow: research → whiteboard → contracts → failure design → observability → slices → replay → operate" />
+<img src="./yeon_workflow_fixed.svg" alt="Animated workflow: research → whiteboard → contracts → failure design → observability → slices → replay → operate" />
 
 ---
 
