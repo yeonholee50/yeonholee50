@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680" height="100" viewBox="0 0 680 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Yeon Lee — simple underline animation</title>
+  <desc id="desc">A minimal animated underline drawn beneath the name.</desc>
+  <style>
+    .name { font: 700 36px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif; fill: #0f172a;}
+    .tag  { font: 500 14px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif; fill: #334155;}
+    .line { fill: none; stroke: #0ea5e9; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 520; stroke-dashoffset: 520; animation: draw 2.6s ease forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+  </style>
+
+  <text class="name" x="12" y="42">Yeon Lee</text>
+  <text class="tag"  x="12" y="68">systems‑minded software engineer · early in my career · learning in public</text>
+
+  <!-- underline path -->
+  <path class="line" d="M12,76 L370,76"/>
+</svg>
