@@ -102,11 +102,6 @@ _ = js.Publish("bars.v1", env.Bytes())
 ## Projects
 > Click a card to jump. Wherever possible, repos come with fixtures, examples, and CI smoke tests.
 
-<a id="ampyfin"></a>
-### AmpyFin (first OSS Python version)
-The earliest open‑source Python repo that seeded today’s modular platform.  
-<a href="https://github.com/AmpyFin" title="Org index (main repo inside)">org entry</a> · <a href="https://www.ampyfin.com" title="Project home">site</a> · <code>#learn-in-public</code>
-
 <a id="proto"></a>
 ### ampy‑proto
 **Canonical schemas** for markets (bars/ticks/fundamentals/news/fx/corporate_actions/universe/signals/orders/fills/positions/metrics).  
@@ -127,35 +122,30 @@ The earliest open‑source Python repo that seeded today’s modular platform.
 **Logs + metrics + tracing** with OTLP exporters; docker‑compose observability stack.  
 <a href="https://github.com/AmpyFin/ampy-observability" title="Observability SDKs">repo</a> · <code>#domain-metrics</code> <code>#p95/p99</code>
 
+<a id="ampyfin"></a>
+### AmpyFin (first OSS Python version)
+The earliest open‑source Python repo that seeded today’s modular platform.  
+<a href="https://github.com/AmpyFin" title="Org index (main repo inside)">org entry</a> · <a href="https://www.ampyfin.com" title="Project home">site</a> · <code>#learn-in-public</code>
+
 <a id="yfinance-go"></a>
 ### yfinance‑go
 Production‑minded free‑data client (historicals/quotes/fundamentals), bounded concurrency, session rotation, circuit breakers; library + CLI (`yfin pull`).  
 <a href="https://github.com/AmpyFin/yfinance-go" title="Yahoo Finance Go client">repo</a> · <code>#bounded-concurrency</code>
 
+<a id="tiingo-go"></a>
+### tiingo‑go (private)
+Normalized fundamentals & prices (Go) with safe decimals & time semantics. <em>Link intentionally omitted.</em>  
+<code>#fundamentals</code> <code>#safe-decimals</code>
 
 ---
 
 <a id="how-i-work"></a>
 ## How I work
-
-I start at the **whiteboard**: clarify the problem in one sentence, list non-goals, and write the invariants that must always hold.
-
-Then I **research the domain** and past incidents: what broke before, where the data lies, which constraints (time semantics, currencies, ordering) are non-negotiable.
-
-I **pin interfaces and contracts** before code—schemas with explicit units/decimals and `event_time`/`ingest_time`/`as_of`. I add three examples (happy, weird-but-valid, invalid) so expectations are concrete.
-
-I **design for boring failure**: timeouts, retries with jitter, circuit breakers, idempotency keys, and a DLQ with structured reasons. There’s always a kill-switch.
-
-**Observability is day 0**: JSON logs carry `trace_id`, `run_id`, and `universe_id`; metrics expose rates/latencies/backlogs; spans outline fetch → normalize → publish. One dashboard, few alerts, tied to user pain.
-
-I **ship in small, reversible changes**: wire telemetry, validate, shadow-publish, then flag-gate the real path. Rollback is scripted and tested.
-
-Confidence is **replay-driven**: golden fixtures (half-days, tz shifts, splits) and deterministic replays (same input + config ⇒ same bytes). CI fails on nondeterministic diffs or schema drift.
-
-I **communicate the why**: each PR links the one-pager, states risk/mitigations, and shows how to reproduce locally.
-
-After release, I **operate and learn**: runbooks with first actions, and when something bites, I add a fixture, a guardrail, and a short note so the next change is easier.
-
+1. **Pin the interface** (fields, units, time semantics).  
+2. **Make failure boring** (timeouts, retries, backoff, idempotency, DLQ).  
+3. **Instrument day 0** (structured logs, labeled metrics, purposeful spans).  
+4. **Reproduce before clever** (golden samples, deterministic replays).  
+5. **Write it down** so the next person ships faster.
 
 ---
 
@@ -168,5 +158,4 @@ Go • Python • C/C++ • SQL · Protobuf · NATS JetStream/Kafka · OpenTelem
 <a id="say-hi"></a>
 ## Say hi
 <a href="mailto:yeonholee50@gmail.com"><kbd>email</kbd></a> · <a href="https://www.linkedin.com/in/yeon-lee"><kbd>LinkedIn</kbd></a> · <a href="https://yeonthelee.tech"><kbd>site</kbd></a> · <a href="https://www.ampyfin.com"><kbd>AmpyFin</kbd></a>
-
 
