@@ -137,11 +137,25 @@ Production‑minded free‑data client (historicals/quotes/fundamentals), bounde
 
 <a id="how-i-work"></a>
 ## How I work
-1. **Pin the interface** (fields, units, time semantics).  
-2. **Make failure boring** (timeouts, retries, backoff, idempotency, DLQ).  
-3. **Instrument day 0** (structured logs, labeled metrics, purposeful spans).  
-4. **Reproduce before clever** (golden samples, deterministic replays).  
-5. **Write it down** so the next person ships faster.
+
+I start at the **whiteboard**: clarify the problem in one sentence, list non-goals, and write the invariants that must always hold.
+
+Then I **research the domain** and past incidents: what broke before, where the data lies, which constraints (time semantics, currencies, ordering) are non-negotiable.
+
+I **pin interfaces and contracts** before code—schemas with explicit units/decimals and `event_time`/`ingest_time`/`as_of`. I add three examples (happy, weird-but-valid, invalid) so expectations are concrete.
+
+I **design for boring failure**: timeouts, retries with jitter, circuit breakers, idempotency keys, and a DLQ with structured reasons. There’s always a kill-switch.
+
+**Observability is day 0**: JSON logs carry `trace_id`, `run_id`, and `universe_id`; metrics expose rates/latencies/backlogs; spans outline fetch → normalize → publish. One dashboard, few alerts, tied to user pain.
+
+I **ship in small, reversible changes**: wire telemetry, validate, shadow-publish, then flag-gate the real path. Rollback is scripted and tested.
+
+Confidence is **replay-driven**: golden fixtures (half-days, tz shifts, splits) and deterministic replays (same input + config ⇒ same bytes). CI fails on nondeterministic diffs or schema drift.
+
+I **communicate the why**: each PR links the one-pager, states risk/mitigations, and shows how to reproduce locally.
+
+After release, I **operate and learn**: runbooks with first actions, and when something bites, I add a fixture, a guardrail, and a short note so the next change is easier.
+
 
 ---
 
