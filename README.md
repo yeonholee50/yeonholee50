@@ -102,6 +102,11 @@ _ = js.Publish("bars.v1", env.Bytes())
 ## Projects
 > Click a card to jump. Wherever possible, repos come with fixtures, examples, and CI smoke tests.
 
+<a id="ampyfin"></a>
+### AmpyFin (first OSS Python version)
+The earliest open‑source Python repo that seeded today’s modular platform.  
+<a href="https://github.com/AmpyFin" title="Org index (main repo inside)">org entry</a> · <a href="https://www.ampyfin.com" title="Project home">site</a> · <code>#learn-in-public</code>
+
 <a id="proto"></a>
 ### ampy‑proto
 **Canonical schemas** for markets (bars/ticks/fundamentals/news/fx/corporate_actions/universe/signals/orders/fills/positions/metrics).  
@@ -122,20 +127,11 @@ _ = js.Publish("bars.v1", env.Bytes())
 **Logs + metrics + tracing** with OTLP exporters; docker‑compose observability stack.  
 <a href="https://github.com/AmpyFin/ampy-observability" title="Observability SDKs">repo</a> · <code>#domain-metrics</code> <code>#p95/p99</code>
 
-<a id="ampyfin"></a>
-### AmpyFin (first OSS Python version)
-The earliest open‑source Python repo that seeded today’s modular platform.  
-<a href="https://github.com/AmpyFin" title="Org index (main repo inside)">org entry</a> · <a href="https://www.ampyfin.com" title="Project home">site</a> · <code>#learn-in-public</code>
-
 <a id="yfinance-go"></a>
 ### yfinance‑go
 Production‑minded free‑data client (historicals/quotes/fundamentals), bounded concurrency, session rotation, circuit breakers; library + CLI (`yfin pull`).  
 <a href="https://github.com/AmpyFin/yfinance-go" title="Yahoo Finance Go client">repo</a> · <code>#bounded-concurrency</code>
 
-<a id="tiingo-go"></a>
-### tiingo‑go (private)
-Normalized fundamentals & prices (Go) with safe decimals & time semantics. <em>Link intentionally omitted.</em>  
-<code>#fundamentals</code> <code>#safe-decimals</code>
 
 ---
 
