@@ -73,7 +73,7 @@ Python · Go · C/C++ · SQL · Protobuf · NATS JetStream/Kafka · OpenTelemetr
 ---
 
 ## Notes
-In my freetime, I build and learn in public. I enjoy working with people who share the same goals but have different ideas when it comes to reaching those goals. 
+In my freetime, I build and learn in an open source environment. I enjoy working with people who share the same goals but have different ideas when it comes to reaching those goals. 
 
 ---
 
