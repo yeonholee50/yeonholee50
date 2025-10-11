@@ -20,12 +20,6 @@
 
 > *I'm not afraid of being left behind—I'm excited about what I can build with the emerging technologies of tomorrow.*
 
----
-
-## ⌘K — Command Palette
-[projects](#projects) • [how-i-work](#how-i-work) • [toolbox](#toolbox) • [say-hi](#say-hi)
-
----
 
 ## Projects
 - **AmpyFin (first OSS Python version)** — the seed that became today’s modular platform. <a href="https://github.com/AmpyFin">org</a> · <a href="https://www.ampyfin.com">site</a>
@@ -49,12 +43,6 @@ I communicate **the why**, keep runbooks short, and write down what I learn.
 
 ## Toolbox
 Go · Python · C/C++ · SQL · Protobuf · NATS JetStream/Kafka · OpenTelemetry/Prometheus/Grafana · Docker/Linux · PostgreSQL/DuckDB/MongoDB
-
----
-
-<a id="ampyfin-notes"></a>
-## Notes
-I build in public. If something looks off, open an issue—I’ll fix it and credit contributors.
 
 ---
 
