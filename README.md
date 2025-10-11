@@ -2,8 +2,6 @@
 # Yeon Lee
 <sub>systems-minded software engineer · early in my career · learning in public</sub>
 
-<img src="./yeon_header_underline.svg" alt="Animated underline under 'Yeon Lee'" />
-
 <a href="https://yeonthelee.tech"><kbd>site</kbd></a> ·
 <a href="https://www.ampyfin.com"><kbd>ampyfin</kbd></a> ·
 <a href="https://github.com/AmpyFin"><kbd>@AmpyFin</kbd></a> ·
