@@ -73,7 +73,7 @@ Python · Go · C/C++ · SQL · Protobuf · NATS JetStream/Kafka · OpenTelemetr
 ---
 
 ## Notes
-I build in public. If something looks off, open an issue—I’ll fix it and credit contributors.
+In my freetime, I build and learn in public. 
 
 ---
 
