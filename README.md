@@ -18,15 +18,20 @@
 
 ---
 
-<a id="palette"></a>
 ## ⌘K — Command Palette
-[projects](#projects) • [how-i-work](#how-i-work) • [toolbox](#toolbox) • [say-hi](#say-hi) • [learn-in-public](#ampyfin)
+[projects](#projects) • [how-i-work](#how-i-work) • [toolbox](#toolbox) • [say-hi](#say-hi)
 
 ---
 
-<a id="projects"></a>
+## How I work
+I research the problem, whiteboard the one-line goal, non‑goals, and invariants. I pin contracts before code, design for boring failure, ship small reversible slices, wire observability day‑0, and use replay‑driven confidence. Then I operate, learn, and write it down.
+
+<img src="./yeon_workflow.svg" alt="Animated workflow: research → whiteboard → contracts → failure design → observability → slices → replay → operate" />
+
+---
+
 ## Projects
-- **AmpyFin (first OSS Python version)** — the seed that became today’s modular platform. <a href="https://github.com/AmpyFin">org</a> · <a href="https://www.ampyfin.com">site</a>
+- **AmpyFin (first OSS Python version)** — seed of today’s modular platform. <a href="https://github.com/AmpyFin">org</a> · <a href="https://www.ampyfin.com">site</a>
 - **ampy-proto** — canonical market schemas. [`pip install ampy-proto`](https://pypi.org/project/ampy-proto/) · <a href="https://github.com/AmpyFin/ampy-proto">repo</a>
 - **ampy-bus** — envelope + headers, QoS, DLQ, NATS/Kafka helpers. <a href="https://github.com/AmpyFin/ampy-bus">repo</a>
 - **ampy-config** — typed config & secrets (Go/Python). <a href="https://github.com/AmpyFin/ampy-config">repo</a>
@@ -35,26 +40,12 @@
 
 ---
 
-<a id="how-i-work"></a>
-## How I work
-Research the problem thoroughly (stakeholder + end users).
-Start at the **whiteboard**. Clarify the one-line problem, non-goals, and invariants.  
-**Pin contracts** (explicit units/decimals; `event_time`/`ingest_time`/`as_of`) and add examples.  
-Design for **failure** (timeouts, jittered retries, circuit breakers, DLQ, kill-switch).  
-Ship **small, reversible changes** (shadow first, flag-gated release, scripted rollback).  
-Make **observability day-0** (JSON logs with trace, labeled metrics, purposeful spans).  
-Use **replay-driven confidence** (golden fixtures; deterministic replays; CI guards).  
-Communicate **the why** and keep runbooks short.
-
----
-
-<a id="toolbox"></a>
 ## Toolbox
 Go · Python · C/C++ · SQL · Protobuf · NATS JetStream/Kafka · OpenTelemetry/Prometheus/Grafana · Docker/Linux · PostgreSQL/DuckDB/MongoDB
 
 ---
 
-<a id="say-hi"></a>
 ## Say hi
 <a href="mailto:yeonholee50@gmail.com"><kbd>email</kbd></a> · <a href="https://www.linkedin.com/in/yeon-lee"><kbd>linkedin</kbd></a> · <a href="https://yeonthelee.tech"><kbd>site</kbd></a> · <a href="https://www.ampyfin.com"><kbd>ampyfin</kbd></a>
+
 
