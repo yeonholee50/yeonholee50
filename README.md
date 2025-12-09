@@ -22,7 +22,7 @@
 
 ---
 
-## ⌘K — Command Palette
+## Directories
 [projects](#projects) • [how-i-work](#how-i-work) • [toolbox](#toolbox) • [say-hi](#say-hi)
 
 ---
